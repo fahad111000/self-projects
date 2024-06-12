@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    text-align: center;
+    margin: 3% 0;
+    padding: 40px;
+}
+
+h1,
+p {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 0;
+    font-size: 50px;
+}
+
+.btn {
+    padding: 8px 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.increase {
+    background-color: rgb(18, 139, 220);
+    color: #fff;
+}
+
+.reset {
+    background-color: rgb(39, 38, 38);
+    color: #fff;
+
+}
+
+.decrease {
+    background-color: rgb(245, 16, 16);
+    color: #fff;
+}
+
+
+
+
+/*Hovers */
+.increase:hover {
+    background-color: rgb(6, 111, 182);
+}
+
+.reset:hover {
+    background-color: rgb(74, 72, 72);
+}
+
+.decrease:hover {
+    background-color: rgb(214, 4, 4);
+}
